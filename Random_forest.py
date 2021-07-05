@@ -7,7 +7,7 @@ from pandas import DataFrame
 from pandas import concat
 from sklearn.metrics import mean_absolute_error
 from sklearn.ensemble import RandomForestRegressor
-
+import pickle
 
 # transform a time series dataset into a supervised learning dataset
 def series_to_supervised(data, n_in=1, n_out=1, dropnan=True):
@@ -83,5 +83,6 @@ pyplot.plot(yhat, label='Predicted')
 pyplot.legend()
 pyplot.show()
 
-
+f = 'RF.sav'
+pickle.dump(MAE, open(f, 'wb'))
 
