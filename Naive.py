@@ -143,10 +143,7 @@ def summarize_by_class(dataset):
 
 
 def calculate_probability(x, mean, stdev):
-    #print(x,mean)
     a=0
-    if x==1.8140068886337544 or x==1.8203707242499523 or 1.9219617520049352:
-        x=random.randint(1, 10)
     a=(float(x)-mean)**2
     b=2*stdev**2
     c=a/b
@@ -212,5 +209,5 @@ label = predict(model, row)
 n_folds = 5
 scores = evaluate_algorithm(dataset, naive_bayes, n_folds)
 print('Scores: %s' % scores)
-print('Mean Accuracy error: %.3f%%' % (6+(sum(scores)/float(len(scores)))))
+print('Mean Accuracy error: %.3f%%' % (sum(scores)/float(len(scores))))
 
