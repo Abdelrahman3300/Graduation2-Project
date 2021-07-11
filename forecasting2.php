@@ -232,7 +232,7 @@
           options: {
               title: {
               display: true,
-              text: "World Wide Wine Production 2018"
+              text: "Top branch sales"
               }
           }
         });
