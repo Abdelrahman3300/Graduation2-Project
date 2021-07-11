@@ -1,0 +1,185 @@
+body {
+    text-align: center;
+    background: linear-gradient(to top, #fbc2eb 0%, #a18cd1 100%);
+    
+}
+
+
+
+*{
+ margin: 0%;
+}
+
+h1,h2,a,.ds{
+    color: rgb(228, 228, 228);
+}
+
+.in,#in{
+  color: rgb(14, 21, 59);
+}
+
+form {
+  align-content: center;
+  text-align: center;
+}
+::placeholder{
+    color: blanchedalmond;
+    font-weight: bold;
+}
+
+.Mu,.pro,.pro1,.pro2{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#oo{
+   margin-top: 5%;
+}
+
+#movingDown {
+	padding-top: 5%;
+}
+
+#myChart{
+  margin-right: 100px;
+  margin-top: 1%;
+  width: auto;
+  height: auto; 
+}
+
+#piechart{
+  width: 10%;
+}
+
+#containers,#myChart,#piechart{
+  margin-right: 100px;
+  margin-top: 20px;
+  border-radius: 60px;
+  width: 40%;
+  margin-top: 10px
+}
+
+#container3 {
+  display: inline-block;
+  width: 35%;
+  margin-top: 6%;
+  background-color:rgb(211, 207, 188);
+  box-shadow: 0px 0px 12px rgb(14, 21, 59);
+  border: 5px solid rgb(14, 21, 59);
+  height: 15%;
+  border-image-repeat:space;
+  
+}
+
+#container {
+    display: inline-block;
+    width: 40%;
+	  margin-top: 10px;
+    background-color:rgb(211, 207, 188);
+    box-shadow: 0px 0px 12px rgb(14, 21, 59);
+    border: 5px solid rgb(14, 21, 59);
+    height: 50%;
+    border-image-repeat:space;
+    
+}
+
+
+
+.End {
+  
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(14, 21, 59);
+  text-emphasis-color: white;
+  text-align:unset;
+}
+
+input {
+    margin: 5%;
+    background-color: transparent;
+    border: none;
+    
+    border-bottom:2px solid  #a18cd1;
+    margin-right: 5%;
+    border-width: 100%;
+
+    
+}
+
+button{
+   
+    width: 30%;
+    box-shadow: 2px 2px 15px black;
+    height: 10%;
+    font-weight: bold;
+    border-radius: 20px;
+    color: black;
+    margin: 5%;
+     border: none;
+    display:table-cell;
+    position: relative;
+    transition-duration: 0.3s;
+}
+
+.sideleft {
+    /*box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);*/
+    width: 20%;
+    float: left;
+    height: 60%;
+}
+
+.card {
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
+  width : 50%;
+  height : 50%;
+  text-align: center;
+  color: white;
+  margin-right: 25%;
+  float: right;
+  margin-top: 2%;
+  padding-bottom: 9%;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(11, 10, 63);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 10%;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  .navbar p {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar p:hover {
+  background: #ddd;
+  color: black;
+}
+
+p {
+  color: rgb(228, 228, 228);
+}
